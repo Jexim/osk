@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Соискателям";
+$arDirProperties = Array(
+
+);
+?>

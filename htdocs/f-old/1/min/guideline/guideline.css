@@ -1,0 +1,400 @@
+/*Верхняя навигация
+------------------------------------------------------------------------------*/
+.top_navigation {
+    background: #fff;
+    position: relative;
+    padding: 15px 30px 14px 30px;
+}
+.top_navigation .item {
+    padding: 3px 10px;
+}
+.top_navigation .item > a {
+    font-size: 16px;
+}
+.lang .item > b, .lang .item > a {
+    font-size: 13px;
+}
+.lang .item > a {
+    color: #253b4d;
+}
+.lang .item {
+    padding: 2px 2px;
+    text-align: center;
+}
+
+
+
+
+/*Блок с продукцией
+------------------------------------------------------------------------------*/ 
+.products_wrapper {
+    background: white;
+    padding: 1px 30px;
+}
+.products_wrapper_title {
+    padding-left: 9px;
+    font-family: DINPro-Light;
+}
+.products_wrapper_title a {
+    color: #dd0103;
+    border-bottom: 1px dotted #dd0103;
+    font-family: DINPro-Bold;
+}
+.products_wrapper_title a.civilian {
+    color: #005f9c;
+    border-bottom: 1px dotted #005f9c;
+}
+.products_wrapper_title b {
+    color: #000000;
+    font-family: DINPro-Bold;
+    border: none;
+    background: #dbe0e3;
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
+    line-height: 40px;
+    height: 55px;
+    display: inline-block;
+}
+.products_wrapper .sub_menu a {
+    font-size: 15px;
+    border-bottom: 1px dotted #0065b3;
+}
+.products_wrapper .sub_menu.civilian a {
+    font-size: 15px;
+    border-bottom: 1px dotted #dd0103;
+    color: #dd0103;
+}
+.products_wrapper .sub_menu b {
+    font-size: 15px;
+}
+.products_wrapper .lead_2 {
+    
+}
+.products_block {
+    background: white;
+    padding-bottom: 30px;
+}
+.products_block_row {
+    
+}
+.products_block_one {
+    width: 248px;
+    padding-left: 40px;
+    float: left;
+    position: relative;
+    display: block;
+    border: none !important;
+    overflow: hidden;
+    opacity: 0;
+    margin: 0;
+}
+.products_block_one_ico {
+    position: relative;
+}
+.products_block_one_ico > a {
+    display: block;
+    border: none !important;
+    position: absolute;
+    bottom: 0px;
+}
+.products_block_one > .img_small_item {
+    position: relative;
+    z-index: 1;
+    display: block;
+    cursor: pointer;
+}
+.img_small_item_mask {
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+.products_block_one > .img_big_item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    display: none;
+    width: auto;
+    height: 100%;
+}
+.products_block_one .products_one_link {
+    width: 175px;
+    position: relative;
+    z-index: 1;
+    padding-top: 10px;
+    padding-bottom: 28px;
+}
+.products_block_one.civilian .products_one_link {
+    width: 270px;
+}
+.products_block_one a {
+    color: black;
+    border-bottom: 1px solid #3f3f3f;
+    font-size: 15px;
+    line-height: 22px;
+}
+.products_block_one.civilian span {
+    color: black;
+    border: none !important;
+    display: block;
+}
+.products_block_one p {
+    color: black;
+    border-bottom: 1px solid #666666;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    font-family: DINPro-Medium;
+}
+.products_block_one:hover {
+    z-index: 5;
+}
+
+
+
+.sub_menu.civilian .item.selected {
+    background: #dd0103;
+    border-radius: 2px;
+}
+
+
+
+
+
+/*FOOTER
+------------------------------------------------------------------------------*/
+.footer_content_in {
+    margin-left: 160px;
+}
+.footer_content_in > p {
+    color: #72889a;
+    font-size: 13px;
+    font-family: DINPro-Regular;
+    padding-top: 28px;
+    margin: 0px;
+}
+.footer_content_in a.footer_mail_link {
+    color: #72889a;
+    font-size: 13px;
+    font-family: DINPro-Regular;
+    margin-top: 2px;
+    display: inline-block;
+    border: none;
+    text-decoration: underline;
+}
+.footer_content_in a.footer_mail_link:hover {
+    color: #c0c9d5;
+}
+.footer_content_in a.footer_innovations_link {
+    color: #72889a;
+    font-size: 18px;
+    font-family: DINPro-Regular;
+    display: inline-block;
+    border: none;
+    text-decoration: underline;
+    position: absolute;
+    top: 38px;
+    right: 18px;
+    text-transform: uppercase;
+    padding-right: 25px;
+    
+}
+.footer_content_in a.footer_innovations_link:hover {
+    color: #c0c9d5;
+}
+.footer_content_in a.footer_innovations_link > span {
+    width: 7px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    top: 7px;
+    right: 0px;
+    background: url('/f/1/media/ico_footer.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    opacity: 0.8;
+}
+.footer_content_in a.footer_innovations_link:hover > span {
+    opacity: 1;
+}
+
+
+
+
+
+/*ITEM_ONE_WRAPPER
+------------------------------------------------------------------------------*/
+
+.one_item_wrapper {
+    background: white;
+}
+.item_one_title {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+}
+.item_one_title > p, .item_one_title_min > p {
+    margin: 0px auto;
+    font-family: DINPro-Regular;
+    font-size: 28px;
+    padding-top: 1px;
+}
+.item_one_title > span, .item_one_title_min > span {
+    margin: 0px auto;
+    font-family: DINPro-Regular;
+    font-size: 13px;
+    text-decoration: underline;
+}
+.item_one_title > h1, .item_one_title_min > h1 {
+    margin: 0px auto;
+    text-transform: uppercase;
+    font-family: DINPro-Bold;
+    font-size: 61px;
+    padding-top: 7px;
+}
+.item_one_title_min {
+    text-align: center;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 26px;
+}
+.item_one_submenu {
+    
+}
+.item_one_submenu > a {
+    font-size: 16px;
+    color: black;
+    border-bottom: 1px solid black;
+    margin: 0px 12px;
+}
+.item_one_submenu > b {
+    font-size: 16px;
+    color: white;
+    background: red;
+    padding: 1px 6px 2px 6px;
+    border-radius: 3px;
+}
+.item_one_submenu > a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+.one_item_wrapper > h2 {
+    font-size: 28px;
+    color: #253b4d;
+    font-family: DINPro-Regular;
+    padding: 43px 38px 0px 38px;
+    margin: 0;
+}
+.one_item_wrapper > p {
+    font-size: 18px;
+    color: black;
+    font-family: DINPro-Regular;
+    line-height: 25px;
+    padding: 38px 38px 0px;
+}
+
+.item_one_developer {
+    padding-top: 18px;
+    padding-bottom: 66px;
+}
+.item_one_developer_in {
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+.item_one_developer_in > span {
+    color: #4e6577;
+    font-size: 18px;
+    font-family: DINPro-Regular;
+}
+.item_one_developer_in > p {
+    color: black;
+    border-bottom: 1px solid #c2c2c2;
+    font-family: DINPro-Regular;
+    font-size: 18px;
+    padding-top: 3px;
+    line-height: normal;
+}
+
+.item_one_specifications {
+    padding-left: 39px;
+    padding-top: 42px;
+    padding-bottom: 80px;
+}
+.item_one_specifications_min {
+    padding-top: 0px;
+}
+.item_one_specifications_table {
+    margin-top: -19px;
+}
+.item_one_specifications_table > table {
+    
+}
+.item_one_specifications_table tr {
+    
+}
+.item_one_specifications_table td {
+    padding-top: 21px;
+}
+.item_one_specifications_table td:nth-child(1) {
+    border-bottom: 1px dotted;
+    width: 400px;
+}
+.item_one_specifications_table tr[colspan="2"] > td {
+    border: none;
+}
+.item_one_specifications_table td:nth-child(1) span {
+    color: #4e6577;
+    font-size: 18px;
+    font-family: DINPro-Regular;
+    padding: 10px 0px 0px;
+    display: inline-block;
+    background: white;
+    margin-bottom: -1px;
+}
+.item_one_specifications_table td:nth-child(2) {
+    vertical-align: bottom;
+}
+.item_one_specifications_table td:nth-child(2) span {
+    color: black;
+    font-size: 18px;
+    font-family: DINPro-Regular;
+}
+.item_one_specifications_table tr[colspan="2"] table td {
+    vertical-align: bottom;
+    padding-top: 0px;
+}
+.item_one_specifications_table tr[colspan="2"] table td:nth-child(1) span {
+    padding-left: 25px;
+}
+.item_one_specifications_table tr[colspan="2"] table td:nth-child(2) div {
+    position: relative;
+    height: 48px;
+}
+.item_one_specifications_table tr[colspan="2"] table td:nth-child(2) span {
+    position: absolute;
+    width: 300px;
+    display: inline-block;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+.big_black_main_spec {
+    background: black;
+    padding: 60px 60px;
+}
+.big_black_main_spec > p {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 21px;
+    font-family: DINPro-Regular;
+}
+.weapons_specific {
+    padding-bottom: 129px;
+}

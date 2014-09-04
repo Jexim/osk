@@ -1,0 +1,11 @@
+.list_enterprises{
+    overflow: visible;
+}
+
+.switch_enterprises {
+    margin-top: 60px;
+}
+
+.list_by_city{
+    display: none;
+} 

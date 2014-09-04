@@ -1,0 +1,13 @@
+.list_enterprises{
+    overflow: visible;
+}
+
+.switch_enterprises {
+    margin-top: 60px;
+}
+
+#map{
+    margin-top: 40px;
+    width: 100%;
+    height: 690px;
+}

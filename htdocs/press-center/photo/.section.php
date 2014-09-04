@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Фотоматериалы";
+$arDirProperties = Array(
+
+);
+?>

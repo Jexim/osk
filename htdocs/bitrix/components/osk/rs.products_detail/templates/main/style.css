@@ -1,0 +1,241 @@
+/** Детальная проекта **/ 
+
+.one_item_wrapper {
+    background: white;
+}
+.item_one_title {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+}
+.item_one_title > p, .item_one_title_min > p {
+    margin: 0px auto;
+    font-family: DINPro-Regular;
+    font-size: 28px;
+    line-height: 1.25;
+}
+.item_one_title > a, .item_one_title_min > a {
+    margin: 0px auto;
+    font-family: DINPro-Regular;
+    font-size: 13px;
+    /*text-decoration: underline;*/
+    color: #000;
+    border-color: rgba(37, 59, 77, 0.3);
+}
+.item_one_title > span, .item_one_title_min > span {
+    font-size: 13px;
+}
+
+.item_one_title > a:hover, .item_one_title_min > a:hover {
+    color: #dd0103;
+    border-color: rgba(221, 1, 3, 0.3);
+}
+.item_one_title > h1, .item_one_title_min > h1 {
+    margin: 0px auto;
+    text-transform: uppercase;
+    font-family: DINPro-Bold;
+    font-size: 61px;
+    padding-top: 3px;
+}
+.item_one_title_min {
+    text-align: center;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 26px;
+}
+.item_one_submenu {
+    
+}
+.item_one_submenu > a {
+    font-size: 16px;
+    color: black;
+    border-bottom: 1px solid black;
+    margin: 0px 12px;
+}
+.item_one_submenu > b {
+    font-size: 16px;
+    color: white;
+    background: red;
+    padding: 1px 6px 2px 6px;
+    border-radius: 3px;
+}
+.item_one_submenu > a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+.one_item_wrapper > h2 {
+    font-size: 28px;
+    color: #253b4d;
+    font-family: DINPro-Regular;
+    padding: 43px 38px 0px 38px;
+    margin: 0;
+}
+.one_item_wrapper > p {
+    font-size: 18px;
+    color: black;
+    font-family: DINPro-Regular;
+    line-height: 25px;
+    padding: 38px 38px 0px;
+}
+
+.item_one_developer {
+    padding-top: 18px;
+    padding-bottom: 66px;
+}
+.item_one_developer_in {
+    display: inline-block;
+    padding-right: 55px;
+}
+.item_one_developer_in > span {
+    color: #4e6577;
+    font-size: 18px;
+    font-family: DINPro-Regular;
+}
+.item_one_developer_in > a {
+    color: black;
+    border-bottom: 1px solid #b2b2b2;
+    font-family: DINPro-Regular;
+    font-size: 18px;
+    margin-top: 4px;
+    line-height: normal;
+    display: inline-block;
+}
+.item_one_developer_in > a:hover{
+    color: #dd0103;
+    border-color: rgba(221, 1, 3, 0.3);
+}
+
+.item_one_specifications {
+    padding-left: 39px;
+    padding-top: 42px;
+    padding-bottom: 80px;
+}
+.item_one_specifications_min {
+    padding-top: 0px;
+}
+.item_one_specifications_table {
+    margin-top: -19px;
+}
+.item_one_specifications_table > table {
+    
+}
+.item_one_specifications_table tr {
+    
+}
+.item_one_specifications_table td {
+    padding-top: 21px;
+}
+.item_one_specifications_table td:nth-child(1) {
+    border-bottom: 1px dotted;
+    width: 400px;
+}
+.item_one_specifications_table tr[colspan="2"] > td {
+    border: none;
+}
+.item_one_specifications_table td:nth-child(1) span {
+    color: #4e6577;
+    font-size: 18px;
+    font-family: DINPro-Regular;
+    padding: 10px 0px 0px;
+    display: inline-block;
+    background: white;
+    margin-bottom: -1px;
+}
+.item_one_specifications_table td:nth-child(2) {
+    vertical-align: bottom;
+}
+.item_one_specifications_table td:nth-child(2) span {
+    color: black;
+    font-size: 18px;
+    font-family: DINPro-Regular;
+}
+.item_one_specifications_table tr[colspan="2"] table td {
+    vertical-align: bottom;
+    padding-top: 0px;
+}
+.item_one_specifications_table tr[colspan="2"] table td:nth-child(1) span {
+    padding-left: 25px;
+}
+.item_one_specifications_table tr[colspan="2"] table td:nth-child(2) div {
+    position: relative;
+    height: 48px;
+}
+.item_one_specifications_table tr[colspan="2"] table td:nth-child(2) span {
+    position: absolute;
+    width: 300px;
+    display: inline-block;
+    bottom: 0px;
+    left: 0px;
+}
+
+.block_characteristics {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.block_characteristics h3 {
+    margin-bottom: 8px;
+}
+
+.block_characteristics table.char td {
+    padding-top: 30px;
+}
+
+.block_characteristics table.char td .text {
+    font-size: 18px;
+    color: #4e6577;
+}
+
+.block_characteristics table.char .value .text {
+    color: #000;
+}
+
+
+.big_black_main_spec {
+    background: black;
+    padding: 60px 60px;
+}
+.big_black_main_spec > p {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 21px;
+    font-family: DINPro-Regular;
+}
+.weapons_specific {
+    padding-bottom: 129px;
+}
+
+.incut_tween {
+    position: relative;
+    overflow: hidden;
+}
+.incut_tween img {
+    width: 50%;
+    float: left;
+}
+
+.important_product {
+    text-align: center;
+    margin: 0px 0px 38px 0px !important;
+    padding: 50px 40px 50px 40px;
+}
+
+.important_product p {
+    max-width: 100%;
+}
+
+.incut_product_top {
+    margin-bottom: 14px;
+}
+
+.block_product_description .lead{
+    color: #253b4d;
+}
+
+.incut_product_middle {
+    margin-bottom: 42px;
+}

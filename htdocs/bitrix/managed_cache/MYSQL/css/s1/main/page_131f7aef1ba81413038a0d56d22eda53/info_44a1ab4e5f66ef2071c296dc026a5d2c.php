@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/bitrix/components/osk/rs.products_list/templates/civil/style.css" => "14090850132597",), 'CUR_SEL_CNT' => '23', 'CUR_IE_CNT' => '0'); ?>

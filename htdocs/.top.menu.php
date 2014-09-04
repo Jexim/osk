@@ -1,0 +1,67 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О корпорации", 
+		"/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Продукция", 
+		"/products/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Инновации", 
+		"/innovation/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Предприятия", 
+		"/enterprises/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Закупки", 
+		"/purchases/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Пресс-центр", 
+		"/press-center/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Корпоративная жилищная программа", 
+		"/corporate-housing-policy/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Кадровая политика", 
+		"/personnel-policy/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контактная информация", 
+		"/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
